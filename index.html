@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="mediaqueries.css" />
+	<link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+
+<body>
+	<nav id="desktop-nav">
+		<div class="logo">Abhishek Gajul</div>
+		<div>
+			<ul class="nav-links">
+				<li><a href="#about">About</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<nav id="hamburger-nav">
+		<div class="logo">Abhishek Gajul</div>
+		<div class="hamburger-menu">
+			<div class="hamburger-icon" onclick="toggleMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu-links">
+				<li><a href="#about" onclick="toggleMenu()">About</a></li>
+				<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+				<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+				<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+			</div>
+		</div>
+	</nav>
+	<section id="profile">
+		<div class="section__pic-container">
+			<img src="assets/profile_photo.png" alt="Abhishek Gajul profile picture" />
+		</div>
+		<div class="section__text">
+			<p class="section__text__p1">Hello, I'm</p>
+			<h1 class="title">Abhishek Gajul</h1>
+			<p class="section__text__p2">Data Analyst</p>
+			<div class="btn-container">
+				<button class="btn btn-color-2" onclick="window.open('assets/Abhishek-Gajul-Data-Analyst-Resume-1.pdf')">
+					Download CV
+				</button>
+				<button class="btn btn-color-1" onclick="location.href='./#contact'">
+					Contact Info
+				</button>
+			</div>
+			<div id="socials-container">
+				<img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+					onclick="location.href='https://www.linkedin.com/in/abhishek-gajul/'" />
+				<img src="./assets/github.png" alt="My Github profile" class="icon"
+					onclick="location.href='https://github.com/was-abi'" />
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<p class="section__text__p1">Get To Know More</p>
+		<h1 class="title">About Me</h1>
+		<div class="section-container">
+			<div class="section__pic-container">
+				<img src="assets/Photo_2.jpg" alt="Profile picture" class="about-pic" />
+			</div>
+			<div class="about-details-container">
+				<div class="about-containers">
+					<div class="details-container">
+						<img src="./assets/experience.png" alt="Experience icon" class="icon" />
+						<h3>Experience</h3>
+						<p>4+ years <br />Data Analyst</p>
+					</div>
+					<div class="details-container">
+						<img src="./assets/education.png" alt="Education icon" class="icon" />
+						<h3>Education</h3>
+						<p>B.Tech. Bachelors Degree<br />M.S. Masters Degree</p>
+					</div>
+				</div>
+				<div class="text-container">
+					<p>
+						Hi, I'm Abhishek, a dedicated Data Analyst with a relentless curiosity for uncovering insights
+						hidden
+						within data. I specialize in turning raw information into actionable knowledge, combining
+						analytical
+						expertise with a passion for solving real-world problems. Join me on a journey
+						through the captivating world of data, where I bridge the gap between technology and human
+						understanding to drive informed decisions and innovation.
+					</p>
+				</div>
+			</div>
+		</div>
+		<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+	</section>
+	<section id="experience">
+		<p class="section__text__p1">Explore My</p>
+		<h1 class="title">Experience</h1>
+		<div class="experience-details-container">
+			<div class="about-containers">
+				<div class="details-container">
+					<h2 class="experience-sub-title">Data Analyst</h2>
+					<div class="article-container">
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>SQL</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Python</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Tableau</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>PowerBI</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Looker</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Microsoft Excel</h3>
+								<p>Advanced</p>
+							</div>
+						</article>
+
+					</div>
+				</div>
+				<div class="details-container">
+					<h2 class="experience-sub-title">Data Analyst</h2>
+					<div class="article-container">
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Data Wrangling</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Data Cleaning</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Azure Synapse Analytics</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Azure DataBricks</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Django</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+							<div>
+								<h3>Git</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+	</section>
+	<section id="projects">
+		<p class="section__text__p1">Browse My Recent</p>
+		<h1 class="title">Projects</h1>
+		<div class="experience-details-container-row>
+		<div class=" experience-details-container">
+			<div class="about-containers">
+				<div class="details-container color-container">
+					<div class="article-container">
+						<img src="https://www.europeanfinancialreview.com/wp-content/uploads/2019/05/personal-finance-software-1024x768-768x576.jpeg"
+							alt="Personal Finance Dashboard" class="project-img" />
+					</div>
+					<h2 class="experience-sub-title project-title">Personal Finance Dashboard</h2>
+					<div class="btn-container">
+						<button class="btn btn-color-2 project-btn" onclick="location.href='https://lnkd.in/dVN2KUSQ'">
+							View
+						</button>
+						<button class="btn btn-color-2 project-btn"
+							onclick="location.href='https://www.linkedin.com/posts/abhishek-gajul_data-analytics-businessintelligence-activity-7209443143920869376-GLgG?utm_source=share&utm_medium=member_desktop'">
+							Linkedin
+						</button>
+					</div>
+				</div>
+				<div class="details-container color-container">
+					<div class="article-container">
+						<img src="https://www.theforage.com/blog/wp-content/uploads/2023/01/working-at-airbnb-1024x768.jpg"
+							alt="Airbnb Listings" class="project-img" />
+					</div>
+					<h2 class="experience-sub-title project-title">AirBNB Listings</h2>
+					<br><br>
+					<div class="btn-container">
+						<button class="btn btn-color-2 project-btn" onclick="location.href='https://lnkd.in/d53z_Ksm'">
+							View
+						</button>
+						<button class="btn btn-color-2 project-btn"
+							onclick="location.href='https://www.linkedin.com/posts/abhishek-gajul_tableau-datavisualization-airbnb-activity-7209439163241189376-Qq2R?utm_source=share&utm_medium=member_desktop'">
+							Linkedin
+						</button>
+					</div>
+				</div>
+				<div class="details-container color-container">
+					<div class="article-container">
+						<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/419a9499-e775-42ba-90c6-d03f34eb586b/dea3gy5-f37916e8-0c90-4b1c-a550-10a67641c523.jpg/v1/fit/w_828,h_466,q_70,strp/wp6530741_one_piece_aesthetic_desktop_wallpapers_by_hokage10000_dea3gy5-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNDE5YTk0OTktZTc3NS00MmJhLTkwYzYtZDAzZjM0ZWI1ODZiXC9kZWEzZ3k1LWYzNzkxNmU4LTBjOTAtNGIxYy1hNTUwLTEwYTY3NjQxYzUyMy5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.deXi0TpSmqRRzGXPAMFtou9N0kArz2pzr5siGLh8kdY"
+							alt="Anime Ratings Analysis" class="project-img" />
+					</div>
+					<br>
+					<h2 class="experience-sub-title project-title">Anime Ratings Analysis</h2>
+					<br><br>
+					<div class="btn-container">
+						<button class="btn btn-color-2 project-btn"
+							onclick="location.href='https://github.com/was-abi/Anime-Data-Analysis-and-Recommender-System'">
+							Github
+						</button>
+						<button class="btn btn-color-2 project-btn"
+							onclick="location.href='https://www.linkedin.com/posts/abhishek-gajul_anime-dataanalytics-recommendationsystem-activity-7075078449236688896-i6_6?utm_source=share&utm_medium=member_desktop'">
+							Linkedin
+						</button>
+					</div>
+				</div>
+
+			</div>
+			<div class="experience-details-container">
+				<div class="about-containers">
+					<div class="details-container color-container">
+						<div class="article-container">
+							<img src="https://images.pexels.com/photos/121191/pexels-photo-121191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+								alt="Personal Finance Dashboard" class="project-img">
+						</div>
+						<h2 class="experience-sub-title project-title">Wine Quality Prediction</h2>
+						<div class="btn-container">
+							<button class="btn btn-color-2 project-btn"
+								onclick="location.href='https://github.com/was-abi/End-to-End-ML-Project-with-MLflow'">View
+								Project</button>
+							<button class="btn btn-color-2 project-btn"
+								onclick="location.href='https://www.linkedin.com/posts/abhishek-gajul_machinelearning-datascience-winequalityprediction-activity-7098392577120362496-f6GK?utm_source=share&utm_medium=member_desktop'">LinkedIn</button>
+						</div>
+					</div>
+
+					<div class="details-container color-container">
+						<div class="article-container">
+							<img src="https://images.pexels.com/photos/12153456/pexels-photo-12153456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+								alt="Airbnb Listings" class="project-img">
+						</div>
+						<h2 class="experience-sub-title project-title">Uber Data Analytics</h2>
+						<br><br>
+						<div class="btn-container">
+							<button class="btn btn-color-2 project-btn"
+								onclick="location.href='https://github.com/was-abi/Uber_Data_Analytics'">View
+								Project</button>
+							<button class="btn btn-color-2 project-btn"
+								onclick="location.href='https://www.linkedin.com/posts/abhishek-gajul_dataengineering-dataanalysis-googlecloud-activity-7073594541013921792-PX6l?utm_source=share&utm_medium=member_desktop'">LinkedIn</button>
+						</div>
+					</div>
+
+					<div class="details-container color-container"
+						style="display: flex; justify-content: center; align-items: center;">
+						<h1 class="experience-sub-title project-title" style="text-align: center;"">Coming soon...</h2>
+				</div>
+			</div>
+		</div>
+      </div>	
+</section>	
+<section id=" certifications">
+							<p class="section__text__p1">Browse My Recent</p>
+							<h1 class="title">Certifications</h1>
+							<div class="experience-details-container">
+								<div class="about-containers">
+									<div class="details-container color-container">
+										<div class="article-container">
+											<a href="assets/Azure_data_cert_Image.png" data-lightbox="image-1">
+												<img src="assets/Azure_data_cert_Image.png" alt="Azure Image"
+													class="certification-img" />
+											</a>
+										</div>
+										<h2 class="experience-sub-title project-title">Microsoft Certified: Azure Data
+											Engineer Associate</h2>
+									</div>
+									<div class="details-container color-container">
+										<div class="article-container">
+											<a href="assets/Google Data Analytics Certification.png"
+												data-lightbox="image-1">
+												<img src="assets/Google Data Analytics Certification.png"
+													alt="Google Image" class="certification-img" />
+											</a>
+										</div>
+										<h2 class="experience-sub-title project-title">Google Data Analytics
+											Certification</h2>
+									</div>
+									<div class="details-container color-container">
+										<div class="article-container">
+											<a href="assets/Intel Certification.png"
+												data-lightbox="image-1">
+												<img src="assets/Intel Certification.png"
+													alt="Google Image" class="certification-img" />
+											</a>
+										</div>
+										<h2 class="experience-sub-title project-title">AI From the Data Center To The Edge</h2>
+									</div>
+								</div>
+	</section>
+
+
+	<section id="contact">
+		<p class="section__text__p1">Get in Touch</p>
+		<h1 class="title">Contact Me</h1>
+		<div class="contact-info-upper-container">
+			<div class="contact-info-container">
+				<img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+				<p><a href="mailto:abhishek.g@themailpad.com">abhishek.g@themailpad.com</a></p>
+			</div>
+			<div class="contact-info-container">
+				<img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+				<p><a href="https://www.linkedin.com/in/abhishek-gajul/">LinkedIn</a></p>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<nav>
+			<div class="nav-links-container">
+				<ul class="nav-links">
+					<li><a href="#about">About</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<p>Copyright &#169; Abhishek Gajul. All Rights Reserved.</p>
+	</footer>
+	<script src="script.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<script>
+		lightbox.option({
+			'resizeDuration': 200,
+			'wrapAround': true
+		})
+	</script>
+</body>
+
+</html>
