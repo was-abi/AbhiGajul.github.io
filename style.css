@@ -263,6 +263,44 @@ section {
 
 /* ABOUT SECTION */
 
+#netflix-dashboards {
+  margin-top: 0; /* Remove extra margin */
+  padding-top: 0; /* Remove extra padding */
+  margin-bottom: 0; /* Remove extra margin */
+  padding-bottom: 0; /* Remove extra padding */
+}
+#experience {
+  margin-top: 0; /* Remove extra margin */
+  padding-top: 0; /* Remove extra padding */
+  margin-bottom: 0; /* Remove extra margin */
+  padding-bottom: 0; /* Remove extra padding */
+}
+#soft-drink-dashboards {
+  margin-top: 0; /* Remove extra margin */
+  padding-top: 0; /* Remove extra padding */
+  margin-bottom: 0; /* Remove extra margin */
+  padding-bottom: 0; /* Remove extra padding */
+}
+#airbnb-dashboards {
+  margin-top: 0; /* Remove extra margin */
+  padding-top: 0; /* Remove extra padding */
+  margin-bottom: 0; /* Remove extra margin */
+  padding-bottom: 0; /* Remove extra padding */
+}
+
+/* Styles specific to the Soft Drink Dashboard */
+.soft-drink-dashboard {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (optional) */
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.soft-drink-dashboard .tableauPlaceholder {
+  width: 100%; /* Ensure the dashboard takes full width */
+  max-width: 1200px; /* Optional: Set a max-width for better responsiveness */
+}
+
 #about {
   position: relative;
 }
@@ -363,7 +401,10 @@ article .icon {
 #projects {
   position: relative;
   margin-bottom: 40%;
+  margin-bottom: 0; /* Remove extra margin */
+  padding-bottom: 0; /* Remove extra padding */
 }
+
 
 .color-container {
   border-color: rgb(163, 163, 163);
