@@ -287,6 +287,12 @@ section {
   margin-bottom: 0; /* Remove extra margin */
   padding-bottom: 0; /* Remove extra padding */
 }
+#top-rated-movies-dashboards {
+  margin-top: 0; /* Remove extra margin */
+  padding-top: 0; /* Remove extra padding */
+  margin-bottom: 0; /* Remove extra margin */
+  padding-bottom: 0; /* Remove extra padding */
+}
 
 /* Styles specific to the Soft Drink Dashboard */
 .soft-drink-dashboard {
